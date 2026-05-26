@@ -1,0 +1,97 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UAFSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "UAF",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFSharedAssets",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFPoseSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFMirroring",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFMass",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFLayering",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFChooser",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFAnimNode",
+			"Enabled": true
+		},
+		{
+			"Name": "UAFAnimGraph",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogicUAF",
+			"Enabled": true
+		},
+		{
+			"Name": "MoverAnimNext",
+			"Enabled": true
+		},
+		{
+			"Name": "Mover",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosMover",
+			"Enabled": true
+		},
+		{
+			"Name": "MoverIntegrations",
+			"Enabled": true
+		}
+	]
+}
